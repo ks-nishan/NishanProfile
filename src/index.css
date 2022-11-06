@@ -1,0 +1,15 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
+  color: rgb(215, 22, 22);
+  font-size: large;
+  background: #4aa4d4;
+  overflow: hidden;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
