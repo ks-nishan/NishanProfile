@@ -8,6 +8,7 @@ import {
   faGithub,
   faYoutube,
   faSkype,
+  faInstagram,
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faHome,
@@ -72,7 +73,7 @@ const Sidebar = () => {
       <ul>
         <li>
           <a
-            href="https://www.linkedin.com/in/slobodan-gaji%C4%87-006bb8b8/"
+            href="https://www.linkedin.com/in/nishanthan-kanagasunderam-8b1817205/"
             target="_blank"
             rel="noreferrer"
           >
@@ -85,7 +86,7 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://github.com/bobangajicsm"
+            href="https://github.com/ks-nishan"
             target="_blank"
             rel="noreferrer"
           >
@@ -98,7 +99,7 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://www.youtube.com/channel/UCBu5ulO4d-d47lAVybpRTkw"
+            href="https://www.youtube.com/channel/UC6qUMoUPB3mSdDauBSJUfrA"
             rel="noreferrer"
             target="_blank"
           >
@@ -110,9 +111,13 @@ const Sidebar = () => {
           </a>
         </li>
         <li>
-          <a href="skype:live:bobangajicsm" rel="noreferrer" target="_blank">
+          <a
+            href="https://www.instagram.com/n.i.s.h.a.n_87/"
+            rel="noreferrer"
+            target="_blank"
+          >
             <FontAwesomeIcon
-              icon={faSkype}
+              icon={faInstagram}
               color="#4d4d4e"
               className="anchor-icon"
             />
