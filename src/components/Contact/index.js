@@ -4,6 +4,7 @@ import Loader from 'react-loaders'
 import { useRef } from 'react'
 import { useEffect, useState } from 'react'
 import emailjs from '@emailjs/browser'
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 
 const Contact = () => {
   const form = useRef()
@@ -80,6 +81,24 @@ const Contact = () => {
               </ul>
             </form>
           </div>
+        </div>
+        <div className="info-map">
+          Nishanthan Kanagasunderam,
+          <br />
+          Sri Lanka,
+          <br />
+          No-23,St.Peater's Place, <br />
+          Colombo - 04 <br />
+          <br />
+          <span>nishakanaga0708@gmail.com</span>
+        </div>
+        <div className="map-wrap">
+          <MapContainer center={[6.8792, 79.8596]} zoom={40}>
+            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+            <Marker position={[44.96366, 19.61045]}>
+              <Popup>Sloba lives here, come over for a cup of coffee :)</Popup>
+            </Marker>
+          </MapContainer>
         </div>
       </div>
       <Loader type="pacman" />
