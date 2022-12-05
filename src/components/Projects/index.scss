@@ -47,15 +47,20 @@
 }
 
 .card-container {
-  width: 50%;
+  width: 60%;
   height: 100%;
   top: 0;
-  padding-top: 18%;
+  padding-top: 12%;
   margin-left: 0;
   position: absolute;
   right: 0;
   overflow: hidden;
   margin: 0 auto;
+  opacity: 0;
+  z-index: 1;
+  transform-style: preserve-3d;
+  animation: fadeInRight 2s forwards;
+  animation-delay: 2s;
 }
 
 @media screen and (max-width: 1200px) {
@@ -69,22 +74,41 @@
 }
 
 .card {
-  border: 1px solid #fff;
+  // border: 1px solid #fff;
   background: black;
   border-radius: 8px;
   overflow: hidden;
-
   height: 400px;
   color: #fff;
+
+  .card-top {
+    height: 200px;
+  }
+}
+
+.card-mage {
+  height: 270px;
+  width: 100%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .card-top h1 {
+  color: #ffd700;
   font-size: 1rem;
   margin: 10px 20px;
 }
 
+.card-bottom h1 {
+  color: #ffd700;
+  text-align: center;
+  margin: 10px 20px;
+  margin-top: 70px;
+}
+
 .card-bottom {
   margin: 10px 20px;
+  margin-top: 80px;
 }
 
 // /*==================== NAV ====================*/

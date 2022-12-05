@@ -13,8 +13,8 @@ const Projects = () => {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToShow: 2,
+    slidesToScroll: 2,
     initialSlide: 0,
     responsive: [
       {
@@ -66,11 +66,12 @@ const Projects = () => {
           {dataProjects.map((item) => (
             <div className="card">
               <div className="card-top">
-                <img src={item.link} alt={item.title} />
-                <h1>{item.title}</h1>
+                <img className="card-mage" src={item.link} alt={item.title} />
               </div>
               <div className="card-bottom">
+                <h1>{item.title}</h1>
                 <h3>{item.techs}</h3>
+                <h5>{item.description}</h5>
               </div>
             </div>
           ))}
