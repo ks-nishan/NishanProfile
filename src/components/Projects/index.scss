@@ -1,0 +1,157 @@
+.section {
+  padding: 2rem 0 4rem;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+
+.section__title {
+  font-size: var(--h1-font-size);
+  color: var(--title-color);
+}
+
+.section__subtitle {
+  display: block;
+  font-size: var(--small-font-size);
+  margin-bottom: var(--mb-3);
+}
+
+.section__title,
+.section__subtitle {
+  text-align: center;
+}
+
+// /*==================== LAYOUT ====================*/
+.container2 {
+  max-width: 768px;
+  margin-left: var(--mb-1-5);
+  margin-right: var(--mb-1-5);
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: var(--z-fixed);
+  background-color: var(--body-color);
+}
+
+.card-container {
+  width: 60%;
+  height: 100%;
+  top: 0;
+  padding-top: 12%;
+  margin-left: 0;
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+  margin: 0 auto;
+  opacity: 0;
+  z-index: 1;
+  transform-style: preserve-3d;
+  animation: fadeInRight 2s forwards;
+  animation-delay: 2s;
+}
+
+@media screen and (max-width: 1200px) {
+  .card-container {
+    position: initial;
+    width: 100%;
+    height: 0%;
+    overflow: visible;
+    margin-top: 1px;
+  }
+}
+
+.card {
+  // border: 1px solid #fff;
+  background: black;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 400px;
+  color: #fff;
+
+  .card-top {
+    height: 200px;
+  }
+}
+
+.card-mage {
+  height: 270px;
+  width: 100%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.card-top h1 {
+  color: #ffd700;
+  font-size: 1rem;
+  margin: 10px 20px;
+}
+
+.card-bottom h1 {
+  color: #ffd700;
+  text-align: center;
+  margin: 10px 20px;
+  margin-top: 70px;
+}
+
+.card-bottom {
+  margin: 10px 20px;
+  margin-top: 80px;
+}
+
+// /*==================== NAV ====================*/
+
+// /* show menu */
+
+// /* Active link */
+
+// /* Change background header */
+
+// /*==================== HOME ====================*/
+
+// /*==================== BUTTONS ====================*/
+
+// /*==================== ABOUT ====================*/
+
+// /*==================== SKILLS ====================*/
+
+// /*==================== QUALIFICATION ====================*/
+
+// /*==================== SERVICES ====================*/
+
+// /* Active Modal */
+
+// /*==================== PORTFOLIO ====================*/
+
+// /*==================== PROJECT IN MIND ====================*/
+
+// /*==================== TESTIMONIAL ====================*/
+
+// /*==================== CONTACT ME ====================*/
+
+// /*==================== FOOTER ====================*/
+
+// /*========== SCROLL UP ==========*/
+
+// /* Show scroll */
+
+// /*========== SCROLL BAR ==========*/
+
+// /*==================== MEDIA QUERIES ====================*/
+// /* For small devices */
+
+// /* For medium devices */
+
+// /* For large devices */
