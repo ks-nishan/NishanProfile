@@ -8,7 +8,7 @@ import { useEffect, useState } from 'react'
 
 const Home = () => {
   const [state] = useState({
-    title: 'Hi,',
+    title: 'Hi 🖐️,',
     titleTwo: "I'm ",
     titleThree: 'Nishanthan.',
   })
@@ -34,7 +34,7 @@ const Home = () => {
                 strings: [
                   "I'm a Software Engineer.",
                   "I'm a Frontend Engineer.",
-                  "I'm a Web Developer.",
+                  "I'm a Web Developer💻.",
                   "I'm an Android Developer.",
                 ],
               }}
