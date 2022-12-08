@@ -50,7 +50,20 @@ const Projects = () => {
           <h1>
             <AnimatedLetters
               // letterClass={letterClass}
-              strArray={['M', 'y', ' ', 'P', 'r', 'o', 'j', 'e', 'c', 't', 's']}
+              strArray={[
+                'M',
+                'y',
+                ' ',
+                'P',
+                'r',
+                'o',
+                'j',
+                'e',
+                'c',
+                't',
+                's',
+                '📂',
+              ]}
               idx={15}
             />
           </h1>
