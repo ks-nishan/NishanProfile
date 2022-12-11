@@ -68,9 +68,8 @@ const Projects = () => {
             />
           </h1>
           <p>
-            I am interested in freelance opportunities - especially on ambitious
-            or large projects. However, if you have any other requests or
-            questions, don't hesitate to contact me using below form either.
+            I have contributed to several academic web-based projects and mobile
+            application solutions until the third year of my university life.
           </p>
         </div>
       </div>
