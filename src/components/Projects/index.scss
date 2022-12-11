@@ -84,6 +84,17 @@
   .card-top {
     height: 200px;
   }
+
+  &:hover {
+    height: 400px;
+
+    .card-mage {
+      height: 280px;
+      width: 100%;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+    }
+  }
 }
 
 .card-mage {
