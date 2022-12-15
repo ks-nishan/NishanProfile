@@ -5,6 +5,7 @@ import Logo from './Logo'
 import Loader from 'react-loaders'
 import Typewriter from 'typewriter-effect'
 import { useEffect, useState } from 'react'
+import Partical from '../Partical'
 
 const Home = () => {
   const [state] = useState({
@@ -14,6 +15,7 @@ const Home = () => {
   })
   return (
     <>
+      <Partical className="partical" />
       <div className="container home-page">
         <div className="text-zone">
           <h1>
