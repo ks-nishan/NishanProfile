@@ -1,7 +1,6 @@
 import './index.scss'
 import { useState } from 'react'
 import LogoN from '../../assets/images/n-logo-c.png'
-import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,
@@ -48,7 +47,7 @@ const Sidebar = () => {
         <NavLink
           activeclassname="active"
           className="portfolio-link"
-          to="/portfolio"
+          to="/projects"
           onClick={() => setShowNav(false)}
         >
           <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />

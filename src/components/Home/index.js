@@ -1,4 +1,4 @@
-import LogoTitle from '../../assets/images/n-logo-c.png'
+import ProfilePic from '../../assets/images/myDP.jpg'
 import { Link } from 'react-router-dom'
 import './index.scss'
 import Logo from './Logo'
@@ -44,8 +44,11 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
-        <Logo />
+        <div className="image-container">
+          <img className="image" src={ProfilePic} alt="Logo" />
+        </div>
       </div>
+
       <Loader type="pacman" />
     </>
   )
