@@ -36,7 +36,7 @@ const Home = () => {
                 strings: [
                   "I'm a Software Engineer.",
                   "I'm a Frontend Engineer.",
-                  "I'm a Web Developer💻.",
+                  "I'm a Web Developer.",
                   "I'm an Android Developer.",
                 ],
               }}
