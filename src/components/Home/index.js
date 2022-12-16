@@ -15,7 +15,7 @@ const Home = () => {
   })
   return (
     <>
-      <Partical className="partical" />
+      {/* <Partical className="partical" /> */}
       <div className="container home-page">
         <div className="text-zone">
           <h1>
