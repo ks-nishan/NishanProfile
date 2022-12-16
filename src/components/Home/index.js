@@ -15,7 +15,27 @@ const Home = () => {
   })
   return (
     <>
-      {/* <Partical className="partical" /> */}
+      <Partical
+        className="particles"
+        params={{
+          particles: {
+            number: {
+              value: 200,
+            },
+            size: {
+              value: 15,
+            },
+          },
+          interactivity: {
+            events: {
+              onhover: {
+                enable: true,
+                mode: 'repulse',
+              },
+            },
+          },
+        }}
+      />
       <div className="container home-page">
         <div className="text-zone">
           <h1>
