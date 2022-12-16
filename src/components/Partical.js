@@ -1,4 +1,5 @@
 import React from 'react'
+import './Partical.scss'
 import { useCallback } from 'react'
 import Particles from 'react-tsparticles'
 import { loadFull } from 'tsparticles'
@@ -34,7 +35,7 @@ function Partical() {
             },
           },
           color: {
-            value: '#fff',
+            value: '#ffd700',
           },
           shape: {
             type: 'star',
@@ -75,7 +76,7 @@ function Partical() {
           line_linked: {
             enable: true,
             distance: 600,
-            color: '#ffffff',
+            color: '#ffd700',
             opacity: 0.4,
             width: 2,
           },
@@ -132,7 +133,7 @@ function Partical() {
         },
         retina_detect: true,
         background: {
-          color: '#111',
+          color: 'blue',
           image: '',
           position: '50% 50%',
           repeat: 'no-repeat',
