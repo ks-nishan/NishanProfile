@@ -1,7 +1,7 @@
 .stage-cube-cont {
   width: 50%;
   height: 100%;
-  top: 0;
+  top: 10;
   padding-top: 18%;
   margin-left: 0;
   position: absolute;
@@ -80,7 +80,36 @@
   }
 }
 
+.flat-button {
+  color: #ffd700;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 10px 18px;
+  border: 1px solid #ffd700;
+  margin-top: 5px;
+  float: left;
+  animation: fadeInAnimation 2s 2.2s backwards;
+  animation-delay: 2.9s;
+  white-space: nowrap;
+
+  &:hover {
+    background: #ffd700;
+    color: #333;
+  }
+}
+
 @media screen and (max-width: 1200px) {
+  .about-page .flat-button {
+    float: none;
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 150px;
+    text-align: center;
+  }
+
   .stage-cube-cont {
     position: initial;
     width: 100%;

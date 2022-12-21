@@ -1,5 +1,6 @@
 import './index.scss'
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import {
   faAngular,
   faCss3,
@@ -20,6 +21,21 @@ const About = () => {
   //       setLetterClass('text-animate-hover')
   //     }, 4000)
   //   }, [])
+
+  const downloadResume = () => {
+    // using Java Script method to get PDF file
+    fetch('NishanthanKanagasunderam.pdf').then((response) => {
+      response.blob().then((blob) => {
+        // Creating new object of PDF file
+        const fileURL = window.URL.createObjectURL(blob)
+        // Setting various property values
+        let alink = document.createElement('a')
+        alink.href = fileURL
+        alink.download = 'Nishanthan_CV.pdf'
+        alink.click()
+      })
+    })
+  }
   return (
     <>
       <div className="container about-page">
@@ -42,9 +58,12 @@ const About = () => {
             React and Node.JS.Good knowledge of the best practices for web
             design and user experience.
           </p>
-          {/* <p>
-                3rd about section
+          {/* <p align="LEFT">
+            Name : Nishanthan Kanagasunderam Field : Software Engineering
           </p> */}
+          <Link className="flat-button" onClick={downloadResume}>
+            Resume
+          </Link>
         </div>
         <div className="stage-cube-cont">
           <div className="cubespinner">
