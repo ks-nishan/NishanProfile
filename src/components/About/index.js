@@ -49,14 +49,15 @@ const About = () => {
           </h1>
           <p>
             Motivated software engineering undergraduate from Sri Lanka
-            Institute of Information Technology.
+            Institute of Information Technology.I have a strong foundation in
+            computer science concepts and am constantly learning and expanding
+            my skills.
           </p>
           <p align="LEFT">
-            Solution-driven web developer adept at contributing to highly
-            collaborative work environments and finding solutions.Proven
-            experience developing consumer-focused websites using HTML, CSS,
-            React and Node.JS.Good knowledge of the best practices for web
-            design and user experience.
+            I am particularly interested in web development and have experience
+            building applications using the MERN stack. In my free time, I enjoy
+            staying up-to-date on the latest technology trends. I am always
+            looking for new opportunities to learn and grow as a developer.
           </p>
           {/* <p align="LEFT">
             Name : Nishanthan Kanagasunderam Field : Software Engineering
