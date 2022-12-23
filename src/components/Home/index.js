@@ -55,9 +55,9 @@ const Home = () => {
                 delay: 40,
                 strings: [
                   "I'm a Software Engineer.",
-                  "I'm a Frontend Engineer.",
                   "I'm a Web Developer.",
                   "I'm an Android Developer.",
+                  "I'm a Content Writter",
                 ],
               }}
             />

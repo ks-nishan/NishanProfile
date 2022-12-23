@@ -68,8 +68,9 @@ const Projects = () => {
             />
           </h1>
           <p>
-            I have contributed to several academic web-based projects and mobile
-            application solutions until the third year of my university life.
+            I have had the opportunity to work on a variety of projects that
+            have helped me build a strong foundation in computer science
+            concepts and hone my skills as a developer.
           </p>
         </div>
       </div>
